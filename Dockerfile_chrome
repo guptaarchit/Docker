@@ -1,6 +1,6 @@
 ## Custom Dockerfile
 FROM consol/ubuntu-xfce-vnc
-MAINTAINER Archit Gupta "archit.gupta@incedoinc.com"
+MAINTAINER Archit Gupta "archit.com"
 USER 0
 # Make TEST USER
 RUN useradd testuser --shell /bin/bash --create-home \
